@@ -1,0 +1,1 @@
+global.tickrate = 4;

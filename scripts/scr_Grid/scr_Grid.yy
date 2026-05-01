@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_Grid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_Grid",
+  "parent":{
+    "name":"SiberianGameJAm2026",
+    "path":"SiberianGameJAm2026.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

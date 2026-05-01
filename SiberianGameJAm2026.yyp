@@ -19,12 +19,21 @@
   },
   "name":"SiberianGameJAm2026",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_Grid","path":"objects/obj_Grid/obj_Grid.yy",},},
+    {"id":{"name":"obj_Plant","path":"objects/obj_Plant/obj_Plant.yy",},},
+    {"id":{"name":"obj_Player_Controller","path":"objects/obj_Player_Controller/obj_Player_Controller.yy",},},
+    {"id":{"name":"obj_Simulation","path":"objects/obj_Simulation/obj_Simulation.yy",},},
+    {"id":{"name":"obj_Spot","path":"objects/obj_Spot/obj_Spot.yy",},},
+    {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
+    {"id":{"name":"dt_Global_variables","path":"scripts/dt_Global_variables/dt_Global_variables.yy",},},
+    {"id":{"name":"scr_Grid","path":"scripts/scr_Grid/scr_Grid.yy",},},
+    {"id":{"name":"spr_plant_flower","path":"sprites/spr_plant_flower/spr_plant_flower.yy",},},
+    {"id":{"name":"spr_pot","path":"sprites/spr_pot/spr_pot.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
