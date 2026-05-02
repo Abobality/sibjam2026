@@ -20,9 +20,11 @@ if keyboard_check_pressed(ord("S"))
 switch(inventoryState)
 {
 	case 0:
+		itemPutBack(128,32,obj_Glove)
 		break;
 	
 	case 1:
+		itemPutBack(128,32,obj_Glove)
 		plant();
 		break;
 		
@@ -31,6 +33,7 @@ switch(inventoryState)
 		break;
 		
 	case 4:
+		itemPutBack(128,32,obj_Glove)
 		sell();
 		break;
 }

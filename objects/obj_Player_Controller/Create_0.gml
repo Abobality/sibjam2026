@@ -8,7 +8,6 @@ enum INVENTORY
 	SHOVEL
 }
 
-mergepull = []
 inventoryState = INVENTORY.SEEDS
 
 plant = function()
@@ -32,24 +31,10 @@ merge = function()
 	var checkPlantChecker = position_meeting(mouse_x,mouse_y,obj_Plant)
 	var checkPlantNearest = instance_nearest(mouse_x,mouse_y,obj_Plant)
 	
-	if checkPlantChecker
+	with obj_Glove
 	{
-		if mouse_check_button_pressed(mb_left)
-		{
-			array_push(mergepull,checkPlantNearest)
-			checkPlantNearest.image_blend = c_blue;
-			show_debug_message("combo")
-			show_debug_message(mergepull)
-			
-			if array_length(mergepull) == 2
-			{
-				array_push(mergepull,checkPlantNearest)
-				instance_destroy(mergepull[0])
-				array_delete(mergepull,0,2)
-				show_debug_message(mergepull)
-				show_debug_message("merged!")
-			}
-		}
+		x = mouse_x;
+		y = mouse_y;
 	}
 }
 
@@ -66,4 +51,10 @@ sell = function()
 			show_debug_message("sold!")
 		}
 	}
+}
+
+itemPutBack = function(xpos,ypos,item)
+{
+	item.x = xpos;
+	item.y = ypos;
 }
