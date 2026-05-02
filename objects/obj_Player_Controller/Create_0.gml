@@ -20,7 +20,10 @@ plant = function()
 	{
 		if mouse_check_button_pressed(mb_left)
 		{
-			instance_create_depth(mouse_x,mouse_y,-1,obj_Plant)
+			instance_create_depth(mouse_x,mouse_y,-1,obj_Plant,
+			{
+				struct: global.planrsPool[irandom(3)]
+			})
 			show_debug_message("spawned!")
 		}
 	}
@@ -49,6 +52,22 @@ sell = function()
 		{
 			instance_destroy(checkPlantNearest)
 			show_debug_message("sold!")
+		}
+	}
+}
+
+feed = function()
+{
+	var checkPlantChecker = position_meeting(mouse_x,mouse_y,obj_Plant)
+	var checkPlantNearest = instance_nearest(mouse_x,mouse_y,obj_Plant)
+	
+	if checkPlantChecker
+	{
+		if mouse_check_button_pressed(mb_left)
+		{
+			checkPlantNearest.gotoFeed()
+			instance_destroy(checkPlantNearest)
+			show_debug_message("fed!")
 		}
 	}
 }

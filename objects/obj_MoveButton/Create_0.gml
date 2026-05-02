@@ -1,4 +1,4 @@
-
+image_speed = 0;
 move = function(dir)
 {
 	var camera = view_camera[0];

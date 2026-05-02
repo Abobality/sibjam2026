@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Hybrid",
-    "path":"sprites/spr_Hybrid/spr_Hybrid.yy",
+    "name":"spr_move_sign",
+    "path":"sprites/spr_move_sign/spr_move_sign.yy",
   },
   "spriteMaskId":null,
   "visible":true,

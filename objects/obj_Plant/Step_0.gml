@@ -1,0 +1,1 @@
+time_val += sway_speed;

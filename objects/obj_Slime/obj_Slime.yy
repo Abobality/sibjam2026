@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_plant_flower",
-    "path":"sprites/spr_plant_flower/spr_plant_flower.yy",
+    "name":"spr_slime",
+    "path":"sprites/spr_slime/spr_slime.yy",
   },
   "spriteMaskId":null,
   "visible":true,

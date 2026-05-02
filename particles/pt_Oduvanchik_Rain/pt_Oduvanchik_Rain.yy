@@ -1,0 +1,25 @@
+{
+  "$GMParticleSystem":"",
+  "%Name":"pt_Oduvanchik_Rain",
+  "backdropHeight":768,
+  "backdropImageOpacity":0.5,
+  "backdropImagePath":"",
+  "backdropWidth":1366,
+  "backdropXOffset":0.0,
+  "backdropYOffset":0.0,
+  "drawOrder":0,
+  "emitters":[
+    {"$GMPSEmitter":"","%Name":"Emitter","additiveBlend":false,"directionIncrease":0.3,"directionMax":167.0,"directionMin":313.0,"directionWiggle":0.0,"distribution":0,"editorColour":1090519039,"editorDrawShape":true,"emitCount":10,"emitDelayMax":15.0,"emitDelayMin":9.0,"emitDelayUnits":0,"emitIntervalMax":2.0,"emitIntervalMin":0.0,"emitIntervalUnits":0,"enabled":true,"endColour":4294967295,"GMPresetName":null,"gravityDirection":242.0,"gravityForce":0.3,"headPosition":0.0,"lifetimeMax":120.0,"lifetimeMin":90.0,"linkedEmitter":null,"locked":false,"midColour":4294967295,"mode":0,"name":"Emitter","orientationIncrease":0.0,"orientationMax":359.0,"orientationMin":189.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":327.61145,"regionW":2076.8447,"regionX":4.0,"regionY":0.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":1.0,"scaleY":1.0,"shape":0,"sizeIncrease":-0.01,"sizeMax":3.0,"sizeMin":2.0,"sizeWiggle":0.0,"spawnOnDeathCount":1,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":1,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":-0.3,"speedMax":6.0,"speedMin":0.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":{"name":"spr_oduvanchik_Part","path":"sprites/spr_oduvanchik_Part/spr_oduvanchik_Part.yy",},"spriteRandom":false,"spriteStretch":true,"startColour":4294967295,"texture":-1,},
+  ],
+  "name":"pt_Oduvanchik_Rain",
+  "parent":{
+    "name":"SiberianGameJAm2026",
+    "path":"SiberianGameJAm2026.yyp",
+  },
+  "resourceType":"GMParticleSystem",
+  "resourceVersion":"2.0",
+  "showBackdrop":true,
+  "showBackdropImage":false,
+  "xorigin":0,
+  "yorigin":0,
+}

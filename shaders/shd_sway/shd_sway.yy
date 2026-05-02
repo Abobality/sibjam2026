@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_sway",
+  "name":"shd_sway",
+  "parent":{
+    "name":"SiberianGameJAm2026",
+    "path":"SiberianGameJAm2026.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -15,6 +15,12 @@ if keyboard_check_pressed(ord("S"))
 	inventoryState = INVENTORY.SELLTELEJKA;
 }
 
+if keyboard_check_pressed(ord("F"))
+{
+	inventoryState = INVENTORY.SHOVEL;
+}
+
+
 
 
 switch(inventoryState)
@@ -35,5 +41,10 @@ switch(inventoryState)
 	case 4:
 		itemPutBack(128,32,obj_Glove)
 		sell();
+		break;
+		
+	case 5:
+		itemPutBack(128,32,obj_Glove)
+		feed();
 		break;
 }

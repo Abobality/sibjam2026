@@ -1,3 +1,3 @@
 image_speed = 0;
 holding = noone;
-depth = - 100
+depth = - 1000
