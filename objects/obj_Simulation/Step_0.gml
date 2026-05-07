@@ -7,4 +7,8 @@ if tick >= global.tickrate
 	{
 		grow_up();
 	}
+	with obj_weather_controller
+	{
+		create_water();
+	}
 }

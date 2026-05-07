@@ -1,1 +1,0 @@
-draw_text_colour(16,16,tick,c_white,c_white,c_white,c_white,1)

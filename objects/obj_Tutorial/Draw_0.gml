@@ -1,0 +1,1 @@
+draw_text(x,y,"1 - plants\n2 - water\n3 - merge plants\n4 - sell plants\n5 - keep plant for slime\nfeed slime for buffs\ntask:feed the slime lavender raf")

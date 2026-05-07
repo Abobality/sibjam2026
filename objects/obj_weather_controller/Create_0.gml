@@ -1,4 +1,5 @@
 ps_rain = -1;
+weather = 0;
 weatherStart = function(target)
 {
 	ps_rain = part_system_create(target)
@@ -13,5 +14,19 @@ particlesClear = function()
 		part_system_clear(ps_rain)
 		part_system_destroy(ps_rain)
 		ps_rain = -1
+	}
+}
+
+create_water = function()
+{
+	if weather = 1
+	{
+		for(var i = 0;i < 7;i++)
+		{
+			for(var j = 0;j < 4;j++)
+			{
+				instance_create_depth(128 + 64 * i,96 + 64 * j,-10,obj_Water)
+			}
+		}
 	}
 }
